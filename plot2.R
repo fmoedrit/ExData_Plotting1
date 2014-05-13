@@ -16,3 +16,4 @@ plot(
   as.numeric(paste(mydata_f$Global_active_power)), 
   type="l", xlab="", ylab="Global Active Power (kilowatts)"
 );
+

@@ -11,3 +11,4 @@ hist(
   as.numeric(paste(mydata_f$Global_active_power)), col="red",
   main="Global Active Power", xlab="Global Active Power (kilowatts)"
 );
+
