@@ -1,5 +1,4 @@
-setwd("D:/fhtechnikum/bi_specialization/_materials/courses/eda_cw1");
-mydata <- read.table("household_power_consumption.txt", header=TRUE, sep=";", dec=".");
+mydata <- read.table("hpc_feb2007", header=TRUE, sep=";", dec=".");
 
 # filtering entries from 01-02-2007 and 02-02-2007
 ind1 <- which(mydata$Date == '1/2/2007');
